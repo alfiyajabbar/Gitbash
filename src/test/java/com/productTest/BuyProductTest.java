@@ -30,7 +30,7 @@ public class BuyProductTest {
 	Thread.sleep(2000);
 	Set<String>allid=driver.getWindowHandles();
 	for(String id:allid)
-	{
+	{//
 		driver.switchTo().window(id);
 		if(driver.getTitle().contains("starting"))
 		{
